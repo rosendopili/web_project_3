@@ -3,9 +3,23 @@
   height: 44px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .header__logo{
+    margin-left: 48px; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .header__logo{
+    margin-left: 24px; 
+  }
+}
+
+
 @media only screen and (max-width: 320px) {
   .header__logo {
     width: 156px;
-    height: 36px; 
+    height: 36px;
+    margin-left: 16px;
   }
 }

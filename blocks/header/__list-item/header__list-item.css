@@ -1,4 +1,23 @@
 .header__list-item {
   margin-left: 18px;
-  list-style: none; 
+  list-style: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header__list-item:nth-last-of-type(1){
+    margin-right: 48px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header__list-item:nth-last-of-type(1){
+    margin-right: 24px;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .header__list-item:nth-last-of-type(1){
+    margin-right: 16px;
+  }
 }

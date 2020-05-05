@@ -7,9 +7,10 @@
   display: flex;
   max-width: 984px;
   width: 100%;
-  margin: 48px auto;
   padding-top: 34px;
   justify-content: space-between;
+  border: 1px solid red;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 320px) {

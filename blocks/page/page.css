@@ -1,5 +1,7 @@
 .page {
   background-color: var(--black);
   font-family: 'Inter', sans-serif;
-  color: var(--white); 
+  color: var(--white);
+  width: 100%;
+  height: auto; 
 }
