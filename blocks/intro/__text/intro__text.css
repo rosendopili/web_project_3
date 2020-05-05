@@ -4,13 +4,25 @@
   font-size: 16px;
   line-height: 26px;
   max-width: 690px;
-  margin-top: 32px; 
+  margin-top: 32px;
 }
+
 
 @media only screen and (max-width: 320px){
   .intro__text {
     font-size: 16px;
     line-height: 26px;
     max-width: 288px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+    height: auto;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }

@@ -9,7 +9,6 @@
   max-width: 984px;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid red;
   padding-top: 50px;
   padding-bottom: 92px;
 }
@@ -31,6 +30,6 @@
 
 @media only screen and (max-width: 320px){
   .lead {
-    padding-bottom: 64px; 
+    padding-bottom: 64px;
   }
 }
