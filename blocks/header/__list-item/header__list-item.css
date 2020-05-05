@@ -3,12 +3,6 @@
   list-style: none;
 }
 
-@media only screen and (max-width: 1024px) {
-  .header__list-item:nth-last-of-type(1){
-    margin-right: 48px;
-  }
-}
-
 @media only screen and (max-width: 768px) {
   .header__list-item:nth-last-of-type(1){
     margin-right: 24px;

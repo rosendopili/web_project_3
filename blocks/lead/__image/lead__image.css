@@ -1,12 +1,20 @@
 .lead__image {
-  max-width: 984px;
+  max-width: 928px;
   width: 100%;
   height: auto;
-  margin-top: 56px; 
+  margin-top: 56px;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 320px){
   .lead__image {
     margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .lead__image {
+    max-width: 100%;
+    height: auto;
   }
 }
