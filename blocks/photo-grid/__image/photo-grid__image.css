@@ -1,5 +1,5 @@
 .photo-grid__image {
-  display: block; 
+  display: block;
   max-width: 300px;
   width: 100%;
   height: auto;
@@ -18,14 +18,14 @@
 
 @media only screen and (max-width: 768px) and (min-width: 321px){
   .photo-grid__image{
-    width: 352px;
-    height: 264px;
+    max-width: 352px;
+    height: auto;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .photo-grid__image{
     width: 284px;
-    height: 213px;
+    height: auto;
   }
 }
