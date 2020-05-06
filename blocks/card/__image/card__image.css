@@ -1,0 +1,24 @@
+.card__image {
+  width: 440px;
+  height: auto;
+  margin-top: 48px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .card__image {
+    width: 460px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card__image {
+    width: 340px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .card__image {
+    width: 100%;
+    margin: 32px auto; 
+  }
+}

@@ -1,0 +1,35 @@
+@import url(__column/card__column.css);
+@import url(__image/card__image.css);
+@import url(__link/card__link.css);
+@import url(__paragraph-large/card__paragraph-large.css);
+@import url(__paragraph-medium/card__paragraph-medium.css);
+@import url(__title/card__title.css);
+@import url(__url-heading/card__url-heading.css);
+@import url(__website/card__website.css);
+
+.card {
+  display: flex;
+  max-width: 928px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 1280px){
+  .card {
+    max-width: 984px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .card {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .card {
+    max-width: 320px;
+    display: block;
+  }
+}

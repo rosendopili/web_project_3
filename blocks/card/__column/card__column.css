@@ -1,0 +1,18 @@
+.card__column {
+  width: 50%;
+  height: auto;
+}
+
+.card__column:nth-of-type(2) {
+  margin-left: 8px;
+}
+
+@media only screen and (max-width: 320px) {
+  .card__column {
+    width: 100%;
+  }
+  .card__column:nth-of-type(2) {
+    width: 288px;
+    margin: 0 auto;
+  }
+}
