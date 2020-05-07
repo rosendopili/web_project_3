@@ -6,11 +6,17 @@
 .header {
   display: flex;
   max-width: 928px;
-  width: 100%;
+  width: calc(100% - 96px);
   height: auto;
   padding-top: 34px;
   justify-content: space-between;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - 48px); 
+  }
 }
 
 @media only screen and (max-width: 320px) {

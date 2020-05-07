@@ -1,4 +1,9 @@
 .card__website_margin-top {
   margin-top: 76px;
+}
 
+@media only screen and (max-width: 768px) {
+  .card__website_margin-top {
+    margin-top: 46px;
+  }
 }

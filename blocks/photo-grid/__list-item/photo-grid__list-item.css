@@ -1,6 +1,8 @@
 .photo-grid__list-item {
   width: 100%;
   height: auto;
+  display: flex; 
+  justify-content: space-around;
 }
 
 

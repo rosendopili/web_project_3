@@ -2,7 +2,7 @@
   width: 440px;
   max-width: 100%;
   height: auto;
-  margin-top: 48px;
+  grid-area: image;
 }
 
 @media only screen and (min-width: 1280px) {
@@ -20,7 +20,7 @@
 
 @media only screen and (max-width: 320px) {
   .card__image {
-    width: 100%;
+    width: 320px;
     margin: 32px auto;
   }
 }
