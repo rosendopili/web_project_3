@@ -7,8 +7,15 @@
   margin: 0 auto;
   margin-top: 92px;
   justify-content: center;
+  max-width: 928px; 
   width: calc(100% - 96px);
   height: auto;
+}
+
+@media only screen and (min-width: 1280px){
+  .photo-grid {
+    max-width: 1184px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
