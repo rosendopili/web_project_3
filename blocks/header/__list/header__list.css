@@ -11,7 +11,7 @@
 }
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .header__list {
     padding-top: 10px;
     font-size: 18px;

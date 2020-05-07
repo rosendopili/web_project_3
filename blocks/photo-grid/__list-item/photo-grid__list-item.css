@@ -1,28 +1,13 @@
 .photo-grid__list-item {
   width: 100%;
   height: auto;
-  display: flex; 
+  display: flex;
   justify-content: space-around;
 }
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .photo-grid__list-item {
     margin-bottom: 12px;
   }
 }
-
-
-/* @media only screen and (max-width: 768px) and (min-width: 321px) {
-  .photo-grid__list-item {
-    width: 352px;
-    height: 264px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .photo-grid__list-item{
-    width: 284px;
-    height: 213px;
-  }
-} */

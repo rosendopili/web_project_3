@@ -6,7 +6,7 @@
   max-width: 690px;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .intro__title {
     max-width: 288px;
     height: auto;
@@ -20,7 +20,5 @@
 @media only screen and (max-width: 768px) {
   .intro__title {
     max-width: 720px;
-    margin-left: 24px;
-    margin-right: 24px;
   }
 }

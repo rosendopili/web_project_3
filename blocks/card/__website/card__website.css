@@ -15,6 +15,13 @@
   }
 }
 
+@media only screen and (max-width: 450px) {
+  .card__website {
+    margin-left: 16px; 
+  }
+}
+
+
 
 @media only screen and (max-width: 320px) {
   .card__website {

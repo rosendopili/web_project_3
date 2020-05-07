@@ -1,9 +1,10 @@
 .header__lang-link {
   cursor: pointer;
+  transition: 1s ease-in-out; 
 }
 
 .header__lang-link:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .header__lang-link:active {

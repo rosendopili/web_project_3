@@ -1,5 +1,5 @@
   .photo-grid__list {
-    width: calc(100% - 96px);
+    width: 100%; 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
@@ -20,12 +20,10 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .photo-grid__list {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 16px;
-    margin-right: 16px;
   }
 }

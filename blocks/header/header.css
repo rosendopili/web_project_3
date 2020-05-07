@@ -15,13 +15,14 @@
 
 @media only screen and (max-width: 768px) {
   .header {
-    width: calc(100% - 48px); 
+    width: calc(100% - 48px);
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .header {
     padding-top: 20px;
+    width: 100%;
   }
 }
 

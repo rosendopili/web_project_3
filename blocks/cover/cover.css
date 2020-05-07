@@ -3,9 +3,16 @@
 @import url(__item/cover__item.css);
 
 .cover {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+}
+
+/* .cover {
   background-image: url("/images/__background.png");
   width: 100%;
-  height: 640px;
+  height: auto;
+  max-height: 640px
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -40,3 +47,15 @@
     height: 740px;
   }
 }
+
+@media only screen and (max-width: 768px){
+  .cover {
+    height: 480px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .cover {
+    height: 240px;
+  }
+} */

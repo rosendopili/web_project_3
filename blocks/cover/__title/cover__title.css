@@ -4,10 +4,11 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  padding-top: 233px;
+  align-self: center;
+  margin-top: 25%;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
