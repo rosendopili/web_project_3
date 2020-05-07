@@ -4,5 +4,6 @@
   color: var(--white);
   width: 100%;
   height: auto;
-  min-width: 300px; 
+  min-width: 300px;
+  overflow: hidden; 
 }

@@ -22,14 +22,14 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .intro{
     width: calc(100% - 48px);
   }
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (max-width: 420px) {
   .intro{
-    width: calc(100% - 32px); 
+    width: calc(100% - 32px);
   }
 }

@@ -8,12 +8,9 @@
 
 @media only screen and (max-width: 420px) {
   .intro__title {
-    max-width: 288px;
-    height: auto;
+    width: 100%;
     font-size: 32px;
     line-height: 35px;
-    margin-left: 16px;
-    margin-right: 16px;
   }
 }
 
