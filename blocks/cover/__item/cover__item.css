@@ -1,5 +1,3 @@
-/* background-photo displays in my local server but not via github pages */
-
 .cover__item {
   position: relative;
   background-image: url(../../../images/background.png);
