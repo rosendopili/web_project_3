@@ -1,20 +1,18 @@
 # Project 3: From Portland to Portland
 
-### Overview
-* Intro
-* Figma
-* Images
+### Technologies Used
+* HTML
+* CSS
 
 **Intro**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is a responsive web-design depicting a travel blog.  The lay-out has been rendered according the Figma wireframe provided in accordance with *BEM methodology*.  
 
 **Figma**
 
 * [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
+* 4 breaking points at the following widths: 320px, 768px, 1024px & 1280px. 
 
-**Images**
+**Results**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+The final product can be viewed [here](https://rosendopili.github.io/web_project_3/)
