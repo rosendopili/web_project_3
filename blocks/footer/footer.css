@@ -11,16 +11,16 @@
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1184px) {
   .footer {
     max-width: 1184px;
+    width: 100%; 
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 924px) {
   .footer{
     width: calc(100% - 48px);
-    max-width: 720px;
   }
 }
 
