@@ -2,7 +2,6 @@
   cursor: pointer;
   text-decoration: none;
   color: var(--white);
-  transition: .3 ease-in-out; ,
 }
 
 .header__lang-link:hover {

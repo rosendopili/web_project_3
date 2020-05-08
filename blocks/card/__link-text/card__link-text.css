@@ -1,7 +1,6 @@
 .card__link-text {
   display: inline-block;
-  border-bottom: 1.5px solid var(--white);
-  transition: .3s ease-in-out;
+  text-decoration: underline; 
   margin: 0;
   padding: 0;
 }
