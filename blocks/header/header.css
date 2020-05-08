@@ -24,6 +24,12 @@
 @media only screen and (max-width: 420px) {
   .header {
     padding-top: 20px;
+    width: calc(100% - 32px);
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .header {
     width: 100%;
   }
 }

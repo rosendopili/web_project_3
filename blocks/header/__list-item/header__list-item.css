@@ -1,17 +1,14 @@
 .header__list-item {
-  margin-left: 18px;
   list-style: none;
 }
 
-@media only screen and (max-width: 768px) {
-  .header__list-item:nth-last-of-type(1){
-    margin-right: 24px;
-  }
+.header__list-item:nth-of-type(2) {
+  margin-left: 18px;
 }
 
 
-@media only screen and (max-width: 320px) {
-  .header__list-item:nth-last-of-type(1){
+@media only screen and (max-width: 300px) {
+  .header__list-item:nth-of-type(2) {
     margin-right: 16px;
   }
 }
