@@ -4,9 +4,8 @@
   color: var(--white);
   width: 100%;
   height: auto;
-  min-width: 300px;
   overflow: hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: auto; 
+  -moz-osx-font-smoothing: auto;
 }
