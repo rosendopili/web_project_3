@@ -1,0 +1,5 @@
+@media only screen and (min-width: 725px) and (max-width: 768px) {
+  .card__title_margin-top{
+    margin-top: 46px; 
+  }
+}
