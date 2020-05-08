@@ -1,6 +1,8 @@
 .header__lang-link {
   cursor: pointer;
-  transition: 1s ease-in-out; 
+  transition: 1s ease-in-out;
+  text-decoration: none;
+  color: var(--white); 
 }
 
 .header__lang-link:hover {
