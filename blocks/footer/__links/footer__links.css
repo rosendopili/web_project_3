@@ -4,6 +4,7 @@
   height: 18px;
   list-style: none;
   margin-top: 92px;
+  padding: 0;
 }
 
 @media only screen and (max-width: 420px) {

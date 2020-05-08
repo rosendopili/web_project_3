@@ -1,9 +1,11 @@
   .photo-grid__list {
-    width: 100%; 
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
     grid-gap: 14px;
+    padding: 0;
+    margin: 0; 
   }
 
 @media only screen and (max-width: 768px){

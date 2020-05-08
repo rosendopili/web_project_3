@@ -1,13 +1,14 @@
-@import url(__image/photo-grid__image.css);
-@import url(__list/photo-grid__list.css);
-@import url(__list-item/photo-grid__list-item.css);
+@import url('__image/photo-grid__image.css');
+@import url('__list/photo-grid__list.css');
+@import url('__list-item/photo-grid__list-item.css');
 
 .photo-grid {
   display: flex;
   margin: 0 auto;
   margin-top: 92px;
+  padding: 0; 
   justify-content: center;
-  max-width: 928px; 
+  max-width: 928px;
   width: calc(100% - 96px);
   height: auto;
 }

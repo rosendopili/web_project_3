@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0;
+  padding: 0; 
   margin-bottom: 48px;
   grid-area: website;
 }
@@ -17,7 +19,7 @@
 
 @media only screen and (max-width: 450px) {
   .card__website {
-    margin-left: 16px; 
+    margin-left: 16px;
   }
 }
 

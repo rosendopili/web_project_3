@@ -1,14 +1,16 @@
-@import url(__image/card__image.css);
-@import url(__link/card__link.css);
-@import url(__paragraph/card__paragraph.css);
-@import url(__paragraph/__paragraph_font-size_medium/card__paragraph_font-size_medium.css);
-@import url(__paragraph/__paragraph_line-height_27px/card__paragraph_line-height_27px.css);
-@import url(__title/card__title.css);
-@import url(__url-heading/card__url-heading.css);
-@import url(__website/card__website.css);
-@import url(__website/__website_margin-top/card__website_margin-top.css);
-@import url(__paragraph-container/card__paragraph-container.css);
-
+@import url('__image/card__image.css');
+@import url('__link/card__link.css');
+@import url('__link-text/card__link-text.css');
+@import url('__paragraph/card__paragraph.css');
+@import url('__paragraph-container/card__paragraph-container.css');
+@import url('__paragraph-med/card__paragraph-med.css');
+@import url('__paragraph-med/__paragraph-med_margin-bottom_zero/card__paragraph-med_margin-bottom_zero.css');
+@import url('__paragraph-med/__paragraph-med_line-height_27px/card__paragraph-med_line-height_27px.css');
+@import url('__paragraph-med/__paragraph-med_margin-bottom_zero/card__paragraph-med_margin-bottom_zero.css');
+@import url('__title/card__title.css');
+@import url('__url-heading/card__url-heading.css');
+@import url('__website/card__website.css');
+@import url('__website/__website_margin-top/card__website_margin-top.css');
 
 .card {
   display: grid;

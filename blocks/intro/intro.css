@@ -1,10 +1,10 @@
-@import url(__list/intro__list.css);
-@import url(__list-item/intro__list-item.css);
-@import url(__list-item-span/intro__list-item-span.css);
-@import url(__list-item-text/intro__list-item-text.css);
-@import url(__text/intro__text.css);
-@import url(__subtitle/intro__subtitle.css);
-@import url(__title/intro__title.css);
+@import url('__list/intro__list.css');
+@import url('__list-item/intro__list-item.css');
+@import url('__list-bold-text/intro__list-bold-text.css');
+@import url('__list-item-text/intro__list-item-text.css');
+@import url('__text/intro__text.css');
+@import url('__subtitle/intro__subtitle.css');
+@import url('__title/intro__title.css');
 
 .intro {
   display: flex;
@@ -14,6 +14,7 @@
   max-width: 928px;
   width: calc(100% - 96px);
   height: auto;
+  padding: 0;
 }
 
 @media only screen and (min-width: 1280px) {
@@ -22,7 +23,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 924px) {
   .intro{
     width: calc(100% - 48px);
   }

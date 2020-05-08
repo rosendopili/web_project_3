@@ -1,7 +1,7 @@
-@import url(__copyright/footer__copyright.css);
-@import url(__link/footer__link.css);
-@import url(__links/footer__links.css);
-@import url(__link-item/footer__link-item.css);
+@import url('__copyright/footer__copyright.css');
+@import url('__link/footer__link.css');
+@import url('__links/footer__links.css');
+@import url('__link-item/footer__link-item.css');
 
 .footer {
   display: flex;
@@ -28,6 +28,6 @@
   .footer {
     height: 286px;
     flex-direction: column;
-    width: calc(100% - 32px); 
+    width: calc(100% - 32px);
   }
 }

@@ -5,6 +5,8 @@
   line-height: 76px;
   grid-area: title;
   max-width: 440px;
+  padding: 0;
+  margin: 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -14,8 +16,6 @@
     height: 46px;
   }
 }
-
-
 
 @media only screen and (max-width: 450px) {
   .card__title {
