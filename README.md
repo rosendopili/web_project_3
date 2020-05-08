@@ -6,7 +6,7 @@
 
 **Intro**
 
-This is a responsive web-design depicting a travel blog.  The lay-out has been rendered according the Figma wireframe provided in accordance with *BEM methodology*.  
+This is a responsive web-design depicting a travel blog.  The lay-out has been rendered according to the Figma wireframe provided in accordance with *BEM methodology*.  
 
 **Figma**
 
