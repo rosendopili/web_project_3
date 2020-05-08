@@ -6,11 +6,11 @@
   font-size: 16px;
   line-height: 18px;
   margin-right: 18px;
-  transition: 0.3s ease-in-out; 
+  transition: .3s ease-in-out;
 }
 
 .footer__link:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 @media only screen and (max-width: 420px) {

@@ -1,9 +1,9 @@
 .card__link-text {
   display: inline-block;
-  border-bottom: 1px solid var(--white);
+  border-bottom: 1.5px solid var(--white);
   transition: .3s ease-in-out;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 .card__link-text:hover {

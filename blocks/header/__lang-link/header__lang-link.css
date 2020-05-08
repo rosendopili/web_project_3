@@ -1,14 +1,10 @@
 .header__lang-link {
   cursor: pointer;
-  transition: 1s ease-in-out;
   text-decoration: none;
-  color: var(--white); 
+  color: var(--white);
+  transition: .3 ease-in-out; ,
 }
 
 .header__lang-link:hover {
-  text-decoration: underline;
-}
-
-.header__lang-link:active {
-  text-decoration: underline;
+  opacity: .8;
 }
