@@ -5,16 +5,31 @@
   line-height: 76px;
   text-align: center;
   align-self: center;
-  margin-top: 25%;
-  margin-bottom: 0; 
-  opacity: 1;
+  margin: 233px auto 0 auto;
+  max-width: 656px;
   z-index: 3;
   padding: 0;
+}
+
+
+@media only screen and (min-width: 1280px) {
+  .cover__title {
+    margin: 283px auto 0 auto;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .cover__title {
+    margin: 153px auto 0 auto;
+  }
 }
 
 @media only screen and (max-width: 420px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
+    margin: 51px auto 0 auto;
+    max-width: 288px;
   }
 }

@@ -11,7 +11,7 @@
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .cover__item::before {
@@ -27,6 +27,6 @@
   transition-duration: .7s;
 }
 
-.cover__item:hover:before {
-  opacity: 0.8;
+.cover__item:hover::before {
+  opacity: .8;
 }
